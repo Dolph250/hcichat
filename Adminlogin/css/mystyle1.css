@@ -1,0 +1,82 @@
+/* CSS Document */
+
+*
+{
+ margin:0px;
+ padding:0px;
+}
+#right
+{
+margin-bottom:-6px;
+
+}
+#menu ul
+{
+list-style:none;
+margin-top: 5px;
+ 
+}
+#menu ul li
+{ background-image:url(images/backnu.png);
+  border:1px solid white;
+  width:119px;
+  height:45px;
+  line-height:35px;
+  text-align:center;
+  float:left;
+  position:relative;
+  border-radius:28px;
+   
+
+}
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+
+  
+} 
+
+#menu ul li a:hover
+{
+background-image:url(images/backnu1.png);
+border-radius:28px;
+color:#FFFF33;
+height: 45px;
+margin-top: 0px;
+ 
+}
+#menu ul ul
+{
+position:absolute;
+display:none;
+
+
+}
+#menu ul li:hover > ul
+{ 
+display:block;
+margin-top: -5px;
+}
+
+#menu ul ul ul
+{
+margin-left:100px;
+top:0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
